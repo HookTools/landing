@@ -1,25 +1,29 @@
 body {
   margin: 0;
-  padding: 0; 
+  padding: 0;
   box-sizing: border-box;
 
-
-  background: black;
-  font-family: 'Montserrat';
+  background: linear-gradient(
+    178deg,
+    #000 -2.21%,
+    #471a1a 49.51%,
+    #000 102.04%
+  );
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
-*{
+* {
   font-family: 'Montserrat';
+  box-sizing: border-box;
 }
-button{
+button {
   cursor: pointer;
 }
-.element-animation{
+.element-animation {
   opacity: 0;
-  transform: translate(0,20px);
-} 
+  transform: translate(0, 20px);
+}
 .element-animation.element-show {
   opacity: 1;
   transition: all 1.5s;
