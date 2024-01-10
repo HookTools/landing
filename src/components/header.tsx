@@ -73,21 +73,21 @@ function Header() {
                 <img src={require('../img/dashboard.png')} alt="" />
                 <div>
                   <p>Web IDE</p>
-                  <p>Manage contract</p>
+                  <p>Develop online</p>
                 </div>
               </a>
               <a href="#localide">
                 <img src={require('../img/explorer.png')} alt="" />
                 <div>
                   <p>Local IDE</p>
-                  <p>Ready to deploy contract</p>
+                  <p>Download IDE</p>
                 </div>
               </a>
               <a href="https://eosio-testify.hook.tools/">
                 <img src={require('../img/deploy.png')} alt="" />
                 <div>
                   <p>Eosio Testify</p>
-                  <p>Deploy in one click</p>
+                  <p>Test your smartcontract</p>
                 </div>
               </a>
             </div>

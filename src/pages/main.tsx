@@ -186,13 +186,13 @@ function Main() {
           onClick={() => {
             switch (choose) {
               case 'linux':
-                window.location.href = `https://github.com/HookTools/EOSIO-LOCAL-IDE/releases/download/v${release}/eosio-ide_${release}_amd64.snap`
+                window.location.href = `https://github.com/HookTools/eosio-local-ide/releases/download/v${release}/hook-ide_${release}_amd64.deb`
                 return
               case 'macOS':
-                window.location.href = `https://github.com/HookTools/EOSIO-LOCAL-IDE/releases/download/v${release}/eosio-ide-${release}-arm64.dmg`
+                window.location.href = `https://github.com/HookTools/eosio-local-ide/releases/download/v${release}/eosio-ide-${release}-arm64.dmg`
                 return
               case 'windows':
-                window.location.href = `https://github.com/HookTools/EOSIO-LOCAL-IDE/releases/download/v${release}/eosio-ide.Setup.${release}.exe`
+                window.location.href = `https://github.com/HookTools/eosio-local-ide/releases/download/v${release}/eosio-ide.Setup.${release}.exe`
                 return
               default:
                 return
